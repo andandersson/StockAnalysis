@@ -1,0 +1,13 @@
+This is an application for showing different data about stockprices and their development.
+In the additional CSV-file, there is stockdata for the time 01/21/2020 - 01/20/2021.
+
+It can perform three different tasks:
+1) Fetching the longest upward trend i the given range. 
+Definition of an upward trend is: “Closing price of day N is higher than closing price of day N-1”
+
+2) Giving  the dates within a given date range which have a) the highest trading volume and b) 
+the most significant stock price change within a day.
+
+3) fetchint the dates with the best opening price compared to 5 days simple moving average (SMA 5).
+
+The dates are put in by the user
